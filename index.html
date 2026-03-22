@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Amy Nguyen Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Tenor+Sans&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+
+
+</head>
+<body>
+
+<div class="page">
+
+<header class="topbar">
+    <nav>
+        <a href ="#profile">Profile</a>
+        <a href="#information">Information</a>
+        <a href="#projects">Projects</a>
+         <a href="#contact">Contact</a>
+    <nav>
+    </header>
+   
+    <section class="amy" id="profile">
+        <div class="amy-img">
+            <img src="images/profile.jpg" alt="Amy Nguyen">
+        </div>
+
+        <div class="amy-text">
+            <h1>Amy Nguyen</h1>
+            <h3>Graphic Designer & Visual Storyteller</h3>
+
+            <p>I’m currently a senior at Millersville University working on my Bachelor’s in Interactive and Graphic Design.</p>
+
+            <p>I study design because I believe having a strong focus on creativity and originality plays a vital impact in today’s society, especially with AI taking over. I strive to create work that feels intentional and not “it looks good enough” designs, to embrace storytelling, problem solving, and something that people can connect on an emotional level.</p>
+
+            <p>As someone who prefers to do multiple things rather than one, I enjoy experimenting with different programs, styles, and techniques to learn and further develop my design skills. Whether it is developing a brand identity or user experience, I’m committed to continuous learning and finding original ways to tell stories through design. </p>
+
+        </div>
+    </section>
+
+<section class="info" id="information">
+
+  <div class="info-grid">
+
+    <div class="info-card">
+      <div class="pill">Education</div>
+      <p><strong>Millersville University</strong> | 2022–Present<br>Bachelor of Design</p>
+      <p><strong>Reading Area Community College</strong> | 2020–2022<br>Associates in Business Administration</p>
+      <p><strong>Muhlenberg High School</strong> | 2016–2020<br>High School Diploma</p>
+    </div>
+
+    <div class="info-card">
+      <div class="pill">Contact</div>
+      <p>nguyenamy1580@gmail.com</p>
+      <p>484-955-0231</p>
+      <p>Reading, PA</p>
+    </div>
+
+    <div class="info-card">
+      <div class="pill">Softwares</div>
+      <ul>
+        <li>Illustrator</li>
+        <li>Photoshop</li>
+        <li>Figma</li>
+        <li>InDesign</li>
+        <li>After Effects</li>
+        <li>Canva</li>
+      </ul>
+    </div>
+
+    <div class="info-card">
+      <div class="pill">Interests</div>
+      <ul>
+        <li>Brand Identity</li>
+        <li>Packaging Design</li>
+        <li>UI/UX</li>
+        <li>Typography</li>
+        <li>Illustration</li>
+      </ul>
+    </div>
+
+  </div>
+
+</section>
+
+
+  
+    <section class="projects" id="projects">
+        <div class="pill">PROJECTS</div>
+
+        <div class="project-grid">
+            <img src="images/project1.png" alt="">
+            <img src="images/project2.png" alt="">
+            <img src="images/project3.png" alt="">
+            <img src="images/project4.png" alt="">
+            <img src="images/project5.png" alt="">
+            <img src="images/project6.png" alt="">
+        </div>
+    </section>
+
+
+<section class="contact" id="contact">
+  <div class="pill">CONTACT ME</div>
+  <div class="contact-content">
+    <p>Email: nguyenamy1580@gmail.com</p>
+    <p>Phone: 484-955-0231</p>
+    <p>Handshake: 
+      <a href="https://millersville.joinhandshake.com/profiles/amyynguyen" target="_blank">
+        View My Profile
+      </a>
+    <p> 
+      <a href="https://www.linkedin.com/in/amy-nguyen-5b4695328"
+         target="_blank">
+         Visit My LinkedIn
+        </a>
+
+    </p>
+  </div>
+</section>
+
+<button id="backToTop" title="Go to top">↑</button>
+
+<script>
+  const btn = document.getElementById("backToTop");
+
+  window.onscroll = function () {
+    if (document.documentElement.scrollTop > 300) {
+      btn.style.display = "block";
+    } else {
+      btn.style.display = "none";
+    }
+  };
+
+  btn.onclick = function () {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+</script>
+
+<footer class="footer">
+  © Amy Nguyen 2026
+</footer>
+
+
+</div>
+   
+</body>
+</html>
+
